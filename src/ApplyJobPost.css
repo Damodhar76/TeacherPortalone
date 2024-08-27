@@ -1,0 +1,28 @@
+.applyButton {
+    background-color: #007bff; /* Blue color */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .applyButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .appliedButton {
+    background-color: #28a745; /* Green color */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .appliedButton:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

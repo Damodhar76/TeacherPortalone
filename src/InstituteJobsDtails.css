@@ -1,0 +1,22 @@
+
+.table tr th td{
+    border: 1px solid black;
+    /* / border-collapse: collapse; / */
+}
+.btncen{
+    margin-left: 300px;
+}
+.areygrap1{
+    border: black;
+    box-shadow: 0px 0px 10px rgb(208, 208, 209);
+    border-radius: 11px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.chart areygrap1{
+    margin-left: 20px;
+}
+.imgposition{
+    margin-top: 50px;
+    border-radius: 20px;
+}

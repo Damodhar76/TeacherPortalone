@@ -1,0 +1,38 @@
+.img1{
+    border-radius: 40px;
+}
+.imgdiv{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.textemail{
+    margin-left: -130px;
+}
+.inputspo{
+    margin-left: 150px;
+}
+.inputbox{
+     /* margin-left: 20px;  */
+    height: 40px;
+    box-sizing: 0px 0px 10px rgb(27, 27, 28);
+    border-radius: 5px;
+
+}
+.inputbox1{
+    /* / margin-left: 50px; / */
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: 0px 0px 10px rgb(27, 27, 28);
+
+}
+.cordtyp{
+    border: 3px;
+    border-style:solid ;
+    box-shadow: 1px 5px 6px 8px rgb(219, 224, 224);
+    /* / border-radius: 10px; / */
+    border-color: rgb(197, 196, 196);
+    margin-left: 70px;
+}
+.defltdata{
+    margin-top: 105px;
+}

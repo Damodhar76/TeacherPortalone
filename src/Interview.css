@@ -1,0 +1,91 @@
+.interview-form-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 200);
+    padding: 20px; /* Keep padding */
+    width: 500px; /* Increase width */
+    max-height: 400px; /* Decrease max-height */
+    overflow-y: auto; /* Add overflow-y to enable scrolling if content exceeds max-height */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+  
+  .interview-form-popup h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .interview-form-popup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .interview-form-popup .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .interview-form-popup label {
+    font-weight: bold;
+  }
+  
+  .interview-form-popup input[type="datetime-local"],
+  .interview-form-popup input[type="text"],
+  .interview-form-popup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Add border-radius for input fields */
+    font-size: 16px;
+  }
+  
+  .interview-form-popup button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Add border-radius for buttons */
+    cursor: pointer;
+  }
+  
+  .interview-form-popup button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .interview-form-popup button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .interview-form-popup button[type="button"] {
+    background-color: #6c757d;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .interview-form-popup button[type="button"]:hover {
+    background-color: #5a6268;
+  }
+
+  .interview-form-popup .button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; /* Add gap between buttons */
+  }
+  
+  .interview-form-popup {
+    /* Other styles */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  }
+  
+  .interview-form-popup::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+  
+  
+  
+
+  
+  /* Add any other CSS styling as needed */
+  

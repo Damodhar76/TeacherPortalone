@@ -1,0 +1,53 @@
+
+.madimi-one-regular {
+    background-color: rgb(254, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.cords{
+    margin-left: 100px;
+}
+.eifig{
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgb(208, 208, 209);
+    margin: 20px;
+    height: 90px;
+}
+.eifig p{
+    margin: 2px 0px 0px 5px;
+}
+.eifig h6{
+    margin-top: 10px;
+    margin-bottom: -3px;
+    margin-left: 4px;
+
+    
+}
+.graphe{
+    align-items: center;
+}
+.areygrap{
+    border: black;
+    box-shadow: 0px 0px 10px rgb(208, 208, 209);
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 9px;
+    
+}
+.areygrap1{
+    border: black;
+    box-shadow: 0px 0px 10px rgb(208, 208, 209);
+    border-radius: 9px;
+    margin-top: 20px;
+}
+.grapsss{
+    margin-left: 40px;
+}
+.donut{
+    margin-top: 30px;
+}
+
+
+  

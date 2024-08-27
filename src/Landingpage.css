@@ -1,0 +1,61 @@
+#Trainertransition {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+}
+
+.visible {
+  max-height: 500px;  /* Adjust the height as needed */
+}
+
+.hidden {
+  max-height: 0;
+}
+
+html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+.footer-bg {
+background-color: #005f73; 
+color: #ffffff;
+width: 100%;
+
+}
+
+.footer-logo img {
+width: 100px;
+height: 100px;
+}
+
+.footer-links {
+display: flex;
+justify-content: space-between;
+}
+
+.left-links .link, .right-links .link {
+color: #ffffff;
+margin: 0 10px; 
+font-size: 1.2rem;
+transition: color 0.3s ease;
+}
+
+.left-links .link:hover, .right-links .link:hover {
+color: #ffb703;
+}
+
+@media (max-width: 768px) {
+.footer-links {
+    flex-direction: column;
+    align-items: center;
+}
+.left-links, .right-links {
+    margin-bottom: 1rem;
+}
+.left-links .link, .right-links .link {
+    display: block;
+    margin: 0.5rem 0;
+}
+}

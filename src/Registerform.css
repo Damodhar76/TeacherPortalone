@@ -1,0 +1,30 @@
+.sideimage{
+    margin-top: 100px;
+    margin-bottom:150px;
+    height:450px;
+    width:20rem;
+    margin-left: 40px;
+    position:fixed;
+    border-radius: 20px;
+    box-shadow: large;
+    border-color:antiquewhite;
+}
+.card2{
+    height: 170px;
+    width:150px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-radius: 40%;
+    background-color:bisque;
+    shape-margin: 5px;
+    box-shadow: 10px;
+}
+.container-fluid{
+    border-color: antiquewhite;
+    border-radius: 10px;
+}
+.style{
+    color: brown;
+    text-align: center;
+}

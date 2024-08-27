@@ -1,0 +1,45 @@
+.table tr th{
+    border: 1px solid ;
+    border-color: black;
+    
+  
+}
+.table{
+    width: 500px;
+}
+.cord{
+   
+    border: 2px solid;
+    padding: 10px;
+}
+.hr{
+    width: 130px;
+    box-shadow: 0px 10px 0 black;
+}
+.btncenter{
+    margin-left: 360px;
+}
+.btbw{
+    width: 200px;
+}
+.btnce {
+    margin-left: 180px;    
+}
+.inserch{
+    margin-left: 10px;
+}
+.inputber{
+    border-color: rgb(234, 117, 117);
+    border-radius: 15px;
+}
+.bottsymbal{
+    border-radius: 30px;
+    height: 25px;
+    width: 20px;
+    margin-left: -27px;
+    margin-bottom: 4px;
+}
+.searic{
+    margin-bottom: 12px;
+    margin-left: -8px;
+}
